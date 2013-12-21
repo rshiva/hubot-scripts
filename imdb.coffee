@@ -1,3 +1,4 @@
+#Simply search movie by "Myhubot imdb MovieName"
 #Movie details
 #
 #imdb moviename  gives movie details
