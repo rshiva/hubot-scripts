@@ -11,6 +11,7 @@ module.exports = (robot) ->
         try
           json=JSON.parse(body)
           msg.send " Title: #{json[0]["title"]} \n
+          Release: #{json[0]["year"]}
           Genre: #{json[0]["genres"]} \n
           Rating: #{json[0]["rating"]} \n
           Runtime: #{json[0]["runtime"][0]} \n
